@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <title>CatPhotoApp</title>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
                     <fieldset>
                         <legend>Is your cat an indoor or outdoor cat?</legend>
                         <label for="indoor">
-                            <input id="indoor" type="radio" name="input-output" required> Indoor
+                            <input checked id="indoor" type="radio" name="input-output" required> Indoor
                         </label>
                         <label for="outdoor">
                             <input id="outdoor" type="radio" name="input-output" required> Outdoor
@@ -57,13 +57,20 @@
                     </fieldset>
                     <fieldset>
                         <legend>What's your cat's personality?</legend>
-                        <input id="loving" type="checkbox">
+                        <input id="loving" type="checkbox" name="personality" value="">
                         <label for="loving">Loving</label>
+                        <input id="lazy" type="checkbox">
+                        <label for="lazy">Lazy</label>
+                        <input id="energetic" type="checkbox">
+                        <label for="energetic">Energetic</label>
                     </fieldset>
                     <input type="text" name="catphotourl" placeholder="cat photo URL">
                     <button type="submit">Submit</button>
                 </form>
             </section>
     </main>
+    <footer>
+        <p>No Copyright - <a href="https://info.cern.ch/">Info.cern.ch</a></p>
+    </footer>
 </body>
 </html>
