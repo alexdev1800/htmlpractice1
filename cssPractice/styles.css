@@ -3,7 +3,38 @@
     margin: auto;
     text-align: center;
     background-color: burlywood;
+    border-radius: 10px;
 }
 body {
     background-image: url(https://i.pinimg.com/originals/98/bd/4f/98bd4fe705c8d9141c848ed5c2eb3e06.jpg);
+}
+.flavor {
+    text-align: left;
+    width: 75%;
+    
+}
+.price {
+    text-align: right;
+    width: 25%;
+   
+}
+.item p{
+    display: inline-block;
+    
+}
+h1 {
+    background-color: rgb(130, 90, 24);
+    color: white;
+    border-radius: 5px;
+}
+
+.address {
+    font-style: italic;
+}
+img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
