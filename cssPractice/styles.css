@@ -2,11 +2,15 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    background-color: burlywood;
+    max-width: 500px; /*this property is used when the user sceen is too wide, and the view is getting wider, so you set the maximun width for it :)*/
+    background-image: linear-gradient(to bottom, burlywood, orange);
+    
     border-radius: 10px;
 }
 body {
     background-image: url(https://i.pinimg.com/originals/98/bd/4f/98bd4fe705c8d9141c848ed5c2eb3e06.jpg);
+    padding: 20px;
+    font-family: sans-serif;
 }
 .flavor {
     text-align: left;
@@ -23,9 +27,15 @@ body {
     
 }
 h1 {
-    background-color: rgb(130, 90, 24);
+    background-color: brown;
     color: white;
     border-radius: 5px;
+    padding: 10px;
+    font-family: Georgia;
+}
+
+h2{
+    font-family: Georgia;
 }
 
 .address {
@@ -37,4 +47,16 @@ img {
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.divider {
+    height: 2px;
+    border-color: brown;
+    background-color: brown;
+    width: 80%;
+    
+}
+
+a:hover{
+    color: brown;
 }
